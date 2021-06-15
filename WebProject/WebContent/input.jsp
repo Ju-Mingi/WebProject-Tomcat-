@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>이름 나이 입력하기</title>
 </head>
+<script type="text/javascript" src="alarm.js"></script>
 <body>
 	<form method = "get" action="InputServlet" name ="frm">
 	아이디 : <input type = "text" name = "id"><br>

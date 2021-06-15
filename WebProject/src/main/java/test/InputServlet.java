@@ -46,7 +46,9 @@ public class InputServlet extends HttpServlet {
 		out.println("<br> 나이 : ");
 		out.println(age);
 		if (age < 50) {
-			out.println("<br>50살 미만");
+			out.println("<br>50대 미만");
+		}else {
+			out.println("<br>50대 이상");
 		}
 		out.println("<br><a href='javascript:history.go(-1)'>다시</a>");
 		out.print("</body></html>");
