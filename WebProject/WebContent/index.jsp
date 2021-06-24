@@ -1,7 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
-<%-- ¼±¾ğ --%>
-<%!String str = "¾È³çÇÏ¼¼¿ä!";
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%-- ì„ ì–¸ --%>
+<%!String str = "ì•ˆë…•í•˜ì„¸ìš”!";
 	int a = 5, b = -5;
 
 	public int abs(int n) {
@@ -19,12 +19,12 @@
 </head>
 <body>
 	<h1>
-		<u>ÀÌ È­¸éÀÌ Ãâ·ÂµÇ¸é Á¤»óÀÔ´Ï´Ù.</u>
+		<u>ì´ í™”ë©´ì´ ì¶œë ¥ë˜ë©´ ì •ìƒì…ë‹ˆë‹¤.</u>
 	</h1>
 	<%
 	out.print(str);
 	out.print("<br>");
-	out.print(b + " Àı´ë°ª : " + abs(b));
+	out.print(b + " ì ˆëŒ€ê°’ : " + abs(b));
 	out.print("<br>");
 	int num1 = 20;
 	int num2 = 10;
